@@ -1,77 +1,77 @@
-# 模拟选课系统
+# Simulation course selection system
 
-> 国科大2023高级软件工程课程作业
+> National University of Science and Technology 2023 Advanced Software Engineering Coursework
 
-> 姓名：李文毅  学号：202318015059008
+> Name: Li Wenyi Student ID: 202318015059008
 
-此项目是一个模拟选课系统，使用 Flask、Python、HTML 和 CSS 构建。它允许用户查看和选择课程，管理已选课程，并提交个人信息。
+This project is a simulated course selection system, built using Flask, Python, HTML, and CSS.It allows users to view and select courses, manage selected courses, and submit personal information.
 
-## 功能
+## Function
 
-- 查看可用课程列表。
-- 在“可选课程”和“已选课程”部分选择和管理课程。
-- 提交个人信息（姓名和学号）以进行选课。
-- 在成功提交选课后收到成功消息。
+-View the list of available courses.
+-Select and manage courses in the ”Optional Courses“ and ”Selected Courses" sections.
+-Submit personal information (name and student number) for course selection.
+-Receive a success message after successfully submitting the course selection.
 
-## 使用指南
+## User guide
 
-### 依赖库
+### Dependency library
 
 - Flask
 - Flask-SQLAlchemy
 
-### 安装
+### Install
 
-1. 克隆仓库：
+1. Clone warehouse：
 
    ```
    git clone https://github.com/wenyi-li/course-selection-system.git
    cd course-selection-system
    ```
 
-2. 创建虚拟环境：
+2. Create a virtual environment：
 
    ```
    python -m venv venv
    ```
 
-3. 激活虚拟环境：
+3. Activate the virtual environment：
 
-   - 在 Windows 上：
+   -On Windows：
 
      ```
      venv\Scripts\activate
      ```
 
-   - 在 macOS 和 Linux 上：
+   -On macOS and Linux：
 
      ```
      source venv/bin/activate
      ```
 
-4. 安装依赖项：
+4. Install dependencies：
 
    ```
    pip install -r requirements.txt
    ```
 
-5. 运行应用程序：
+5. Run the application：
 
    ```
    python app.py
    ```
 
-6. 打开你的 Web 浏览器，访问 [http://localhost:5000](http://localhost:5000/)。
+6. Open your Web browser and visit [http://localhost:5000 ](http://localhost:5000/).
 
-## 使用
+## Use
 
-1. 在你的 Web 浏览器中访问 [http://localhost:5000](http://localhost:5000/)。
-2. 浏览可选课程列表。
-3. 在“可选课程”和“已选课程”部分选择和管理课程。
-4. 在“个人信息”部分提交你的个人信息。
-5. 单击“提交选课”按钮完成选课。
-6. 收到选课成功消息。
+1. Access in your Web browser [http://localhost:5000 ](http://localhost:5000/).
+2. Browse the list of optional courses.
+3. Select and manage courses in the ”Optional Courses“ and ”Selected Courses" sections.
+4. Submit your personal information in the ”Personal Information" section.
+5. Click the "Submit Course Selection" button to complete the course selection.
+6. Received a successful message for course selection.
 
-## 致谢
+## Thank you
 
-- 感谢 Flask 和 Python 社区提供的出色工具和文档。
+-Thanks to Flask and the Python community for their excellent tools and documentation.
