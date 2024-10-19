@@ -22,7 +22,7 @@ This project is a simulated course selection system, built using Flask, Python, 
 
    ```
    git clone https://github.com/Nageswar122/student.git
-   cd course-selection-system
+   cd student
    ```
 
 2. Create a virtual environment：
