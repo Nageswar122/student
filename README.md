@@ -1,9 +1,5 @@
 # Simulation course selection system
 
-> National University of Science and Technology 2023 Advanced Software Engineering Coursework
-
-> Name: Li Wenyi Student ID: 202318015059008
-
 This project is a simulated course selection system, built using Flask, Python, HTML, and CSS.It allows users to view and select courses, manage selected courses, and submit personal information.
 
 ## Function
