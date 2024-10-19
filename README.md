@@ -21,7 +21,7 @@ This project is a simulated course selection system, built using Flask, Python, 
 1. Clone warehouse：
 
    ```
-   git clone https://github.com/wenyi-li/course-selection-system.git
+   git clone https://github.com/Nageswar122/student.git
    cd course-selection-system
    ```
 
